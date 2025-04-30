@@ -1,3 +1,5 @@
+## Web-Based Integrated Development Environment
+
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A web-based Integrated Development Environment built with HTML, CSS, and JavaScript that allows you to write and execute code directly in your browser. **You can run it locally too!**
