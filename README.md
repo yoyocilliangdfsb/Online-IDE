@@ -36,9 +36,8 @@ Since this is a **purely client-side application contained within a single HTML 
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Online-Python-IDE.git
+    git clone https://github.com/nuni-neomu-areumdawo/Online-IDE.git
     ```
-    *(Replace `your-username` with your actual GitHub username)*
 
 2.  **Navigate to the directory:**
     ```bash
