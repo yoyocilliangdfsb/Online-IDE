@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Online Code IDE</title>
-<link rel="icon" type="./static/favicon2.ico" href="./static/favicon2.ico">
+<link rel="icon" type="./static/favicon.ico" href="./static/favicon.ico">
 <!-- CodeMirror CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/material-darker.min.css">
@@ -101,6 +101,13 @@
     }
     #toggle-all:hover, #toggle-hints:hover, #toggle-errors:hover, #next-issue:hover, #toggle-history-panel:hover {
         background-color: #5a6268;
+    }
+
+    #view-src {
+        background-color: #553d5a; /* Gray - Toggle Buttons */
+    }
+    #view-src:hover {
+        background-color: #683c5f;
     }
 
     #save-button {
@@ -516,6 +523,7 @@
                 <option value="c">C</option>
                 <option value="cpp">C++</option>
             </select>
+            <button id="view-src" class = "control-button">View SRC</button>
             <button id="toggle-all" class = "control-button">Toggle All</button>
             <button id="toggle-hints" class = "control-button">Toggle Hints</button>
             <button id="toggle-errors" class = "control-button">Toggle Errors</button>
@@ -573,6 +581,7 @@
     const hintsPanel = document.getElementById("hints-panel");
     const outputContent = document.getElementById("output-content");
     const toggleAllButton = document.getElementById("toggle-all");
+    const srcButton = document.getElementById("view-src");
     const toggleHintsButton = document.getElementById("toggle-hints");
     const toggleErrorsButton = document.getElementById("toggle-errors");
     const nextIssueButton = document.getElementById("next-issue");
@@ -910,6 +919,10 @@
 
     saveButton.addEventListener('click', saveCode);
     toggleHistoryPanelButton.addEventListener('click', toggleHistoryPanel);
+
+    srcButton.addEventListener("click", () => {
+        window.open("https://github.com/nuni-neomu-areumdawo/Online-IDE/");
+    });
 
 
     toggleAllButton.addEventListener("click", () => {
