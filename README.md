@@ -1,12 +1,9 @@
-<img width="1279" alt="image" src="https://github.com/user-attachments/assets/7eb8f62b-b72a-488a-8113-678adaa67149" /># Online Multi-Language IDE
-
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A web-based Integrated Development Environment built with HTML, CSS, and JavaScript that allows you to write and execute code directly in your browser. **You can run it locally too!**
 
-<img width="1279" alt="image" src="https://github.com/user-attachments/assets/09c8e7a7-b7de-46b5-b007-6946a5715e13" />
-
 <img width="1278" alt="image" src="https://github.com/user-attachments/assets/782c8799-b300-46ec-9a42-832a6f6df35a" />
+*Example execution with simple program.)
 
 ## Features
 *   **Multi-Language Support:**
