@@ -2,9 +2,12 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-A web-based Integrated Development Environment built with HTML, CSS, and JavaScript that allows you to write and execute code directly in your browser. **You can run it locally too!**
+A web-based Integrated Development Environment built with HTML, CSS, and JavaScript that allows you to write and execute code directly in your browser.
+
+https://nuni-neomu-areumdawo.github.io/Online-IDE/ - **You can run it locally too!!**
 
 <img width="1278" alt="image" src="https://github.com/user-attachments/assets/782c8799-b300-46ec-9a42-832a6f6df35a" />
+
 *Example execution with simple program.*
 
 ## Features
@@ -41,7 +44,7 @@ Since this is a **purely client-side application contained within a single HTML 
 
 2.  **Navigate to the directory:**
     ```bash
-    cd Online-Python-IDE
+    cd Online-IDE
     ```
 
 3.  **Open the HTML file:**
